@@ -1,0 +1,28 @@
+{
+  "name": "server-side-example",
+  "author": {
+    "name": "eric",
+    "email": "enelson@zendesk.com",
+    "url": ""
+  },
+  "defaultLocale": "en",
+  "private": true,
+  "location": {
+    "support": {
+      "ticket_sidebar": {
+        "url": "",
+        "flexible": true
+      }
+    }
+  },
+  "parameters": [
+    {
+      "name": "token",
+      "type": "text",
+      "secure": true,
+      "required": true
+    }
+  ],
+  "version": "1.0.0",
+  "frameworkVersion": "2.0"
+}
